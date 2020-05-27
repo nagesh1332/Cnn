@@ -67,8 +67,8 @@ print(model.summary())
 
 from keras.preprocessing.image import ImageDataGenerator
 
-train_data_dir = 'monkey_breed/monkey_breed/train/'
-validation_data_dir = 'monkey_breed/monkey_breed/validation/'
+train_data_dir = '/root/monkey_breed/monkey_breed/train/'
+validation_data_dir = '/root/monkey_breed/monkey_breed/validation/'
 
 # Let's use some data augmentaiton 
 train_datagen = ImageDataGenerator(
